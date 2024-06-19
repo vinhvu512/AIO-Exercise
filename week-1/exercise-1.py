@@ -1,5 +1,5 @@
 import numpy as np
-
+import math
 
 def call_metrics(tp, fp, fn):
     if not isinstance(tp, int):
@@ -22,4 +22,3 @@ def call_metrics(tp, fp, fn):
     print(f"f1-score is {f1}")
 
 
-call_metrics(2, 3, 4)
